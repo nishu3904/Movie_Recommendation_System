@@ -1,22 +1,22 @@
 # Movie Recommendation and Rating Analysis System
 
-## 📌 Project Overview
+## Project Overview
 This project is a database-driven application. It focuses on storing user movie ratings and analyzing that data to provide meaningful insights and recommendations. The system uses a **MySQL** backend for data management and a **Python (Streamlit)** frontend for the user interface.
 
-## 📂 Project Structure
+## Project Structure
 To keep the project organized and professional, the SQL logic is divided into three parts:
 * `schema_design.sql`: Defines the database tables and relationships (Foreign Keys).
 * `insert_data.sql`: Populates the tables with 20+ records of users, movies, and ratings.
 * `analysis_queries.sql`: Contains the core SQL logic for all analytical tasks.
 * `app.py`: The Python script that runs the interactive dashboard.
 
-## 📺 Project Demonstration
+## Project Demonstration
 Since the video file is hosted on Google Drive, you can view the full walkthrough of the application and the database logic by clicking the link below:
 
 ➤ **[Watch the Project Demo Video](https://drive.google.com/file/d/1jgRil6PXtRk1kJtH144JREt5XuTVAP-U/view?usp=drive_link)**
 
 
-## 🚀 Key Features & Functionalities
+## Key Features & Functionalities
 The system performs the following 5 key tasks as per the project requirements:
 1. **Top-Rated Movies**: Identifies movies with an average rating of 4.0 or higher.
 2. **Popular Genres**: Calculates which movie genres are watched the most.
@@ -24,13 +24,13 @@ The system performs the following 5 key tasks as per the project requirements:
 4. **User Behavior Patterns**: Analyzes how many ratings each user has submitted.
 5. **Trending Movies**: Detects the most frequently watched movies in recent history.
 
-## 🛠️ Tech Stack
+## Tech Stack
 * **Database**: MySQL (Relational Database)
 * **Programming**: Python 
 * **Libraries**: `streamlit`, `mysql-connector-python`, `pandas`
 * **Tools**: MySQL Workbench, Terminal (Mac)
 
-## 📖 Setup & Execution
+## Setup & Execution
 1. **Database Setup**:
    - Open MySQL Workbench and run `schema_design.sql`.
    - Run `insert_data.sql` to fill the database.
