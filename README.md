@@ -10,6 +10,12 @@ To keep the project organized and professional, the SQL logic is divided into th
 * `analysis_queries.sql`: Contains the core SQL logic for all analytical tasks.
 * `app.py`: The Python script that runs the interactive dashboard.
 
+## 📺 Project Demonstration
+Since the video file is hosted on Google Drive, you can view the full walkthrough of the application and the database logic by clicking the link below:
+
+➤ **[Watch the Project Demo Video](https://drive.google.com/file/d/1jgRil6PXtRk1kJtH144JREt5XuTVAP-U/view?usp=drive_link)**
+
+
 ## 🚀 Key Features & Functionalities
 The system performs the following 5 key tasks as per the project requirements:
 1. **Top-Rated Movies**: Identifies movies with an average rating of 4.0 or higher.
