@@ -42,3 +42,5 @@ The system performs the following 5 key tasks as per the project requirements:
      streamlit run app.py
      ```
    - Use the **Checkboxes/Radio buttons** in the app to navigate through the different analytical views.
+
+  ![Project Demo](demo_video.mp4)
